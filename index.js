@@ -18,4 +18,5 @@ function attributesToPhrase(names) {
   names.map(function (x) {
     result.push("#{x.name} if from #{x.hometown}");
   })
+  return result;
 }
