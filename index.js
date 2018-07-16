@@ -10,4 +10,5 @@ function nameToAttributes(names) {
     let first_and_last = x.split(" ");
     result.firstName = first_and_last[0];
     result.lastName = first_and_last[1];
-  })
+  }
+}
