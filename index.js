@@ -16,7 +16,7 @@ function nameToAttributes(names) {
 function attributesToPhrase(names) {
   const result = [];
   names.map(function (x) {
-    result.push("${x[name]} is from ${x.hometown}");
+    result.push(`${x.name} is from ${x.hometown}`);
   })
   return result;
 }
