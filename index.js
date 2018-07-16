@@ -12,3 +12,10 @@ function nameToAttributes(names) {
   })
   return result;
 }
+
+function attributesToPhrase(names) {
+  const result = [];
+  names.map(function (x) {
+    result.push("#{x.name} if from #{x.hometown}");
+  })
+}
