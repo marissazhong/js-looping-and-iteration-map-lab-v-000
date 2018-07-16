@@ -20,13 +20,3 @@ function attributesToPhrase(names) {
   })
   return result;
 }
-
-const drivers = [
-  { name: 'Bobby',   hometown: 'Pittsburgh'  },
-  { name: 'Sammy',   hometown: 'New York'    },
-  { name: 'Sally',   hometown: 'Cleveland'   },
-  { name: 'Annette', hometown: 'Los Angeles' },
-  { name: 'Bobby',   hometown: 'Tampa Bay'   }
-];
-
-console.log(attributesToPhrase(drivers));
